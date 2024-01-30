@@ -1,0 +1,311 @@
+body
+{
+    box-sizing: border-box;
+    background-color: rgb(1, 33, 67);
+    scroll-behavior: smooth;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo h1
+{
+    font-size: 40px;
+}
+ul
+{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 10px;
+}
+.menu ul li
+{
+    display: inline;
+    height: 40px;
+    width: 90px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(6, 107, 150);
+    box-shadow: 5px 5px 10px rgb(1, 33, 67);
+}
+.menu ul li:hover
+{
+    background-color: rgb(113, 206, 246);
+}
+.menu ul li:active
+{
+    box-shadow: none;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.menu ul li a:hover
+{
+    color: black;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(131, 220, 250);
+    top: 0;
+    position: sticky;
+    padding: 20px;
+    height: 40px;
+    z-index: 2;
+}
+/* main  */
+#home
+{
+    background-color: rgb(1, 33, 67);
+    margin-top: 0px;
+}
+.h
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text
+{
+    margin-left: 100px;
+    text-align: center;
+}
+.front
+{
+    font-size: 40px;
+    overflow: hidden; /*Ensures the content is not revealed until the animation */
+  border-right: 7px solid rgb(113, 206, 246); /* The typwriter cursor */
+  white-space: nowrap;/* Keeps the content on a single line */
+  margin: 0 auto;
+  animation: typing 5s steps(40,end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+    from{width: 0%;}
+    to{width: 100%;}
+}
+@keyframes blink-caret {
+    from,
+    to{
+      border-color: transparent;
+    }
+    50% {
+      border-color: rgb(113, 206, 246);
+    }
+  }
+.carousel
+{
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(113, 206, 246);
+}
+.slideshow-container {
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+    animation: fade 1.5s ease-in-out;
+  }
+  
+  .fade {
+    animation: fade 1.5s ease-in-out;
+  }
+  
+  /* Navigation buttons */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* The dots/circles */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Add a fade animation */
+  @keyframes fade {
+    from {
+      opacity: .4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .content
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 30px;
+  }
+  .img a button
+  {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(6, 107, 150);
+    box-shadow: 5px 5px 10px rgb(65, 142, 224);
+    color: white;
+    font-size: 20px;
+  }
+  .img a button:hover
+  {
+    background-color: rgb(113, 206, 246);
+    color: black;
+  }
+  .img a button:active
+  {
+    box-shadow: none;
+  }
+  .content p
+  {
+    color: white;
+    font-size: 20px;
+  }
+  .img
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  #project {
+    background: var(--darker-color);
+  }
+  
+  #project h2 {
+    font-size: 6rem;
+    text-align: center;
+    padding: 0rem 0;
+  }
+  .project_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+  .grid_item {
+    display: grid;
+    place-items: center;
+  }
+  
+  .card {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+  }
+  .card img
+  {
+    height: 205px;
+    width: 320px;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+  }
+  .card:hover img {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    opacity: 0.8;
+  }
+  .card:hover .card_content {
+    background: white;
+    color: var(--dark-color);
+    transform: translateY(0px);
+  }
+  
+  .card_content {
+    padding: 5rem;
+    position: relative;
+    top: -12.5rem;
+    margin-bottom: -6.5rem;
+    transition: 0.5s ease-in-out;
+    transform: translateY(100px);
+  }
+  .card_content h3 {
+    text-align: center;
+    overflow: hidden;
+  }
+  #contact
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #work
+  {
+    color: white;
+    font-size: 40px;
+  }
+  #icon
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+  }
+  .icons
+  {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+  }
+  

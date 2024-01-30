@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Landing Page</title>
+    <style>
+        .col
+        {
+            border-radius: 30px;
+            border: 1px solid black;
+            box-shadow: 5px 10px 5px rgb(147, 126, 126);
+            transition: 0.2s ease-in-out;
+            margin: 0 auto;
+        }
+        .col:hover
+        {
+            transform: scale(1.04);
+            box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+            transition: 0.2s ease-in-out;
+        }
+        #img
+        {
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <section>
+        <div class="card bg-dark text-white">
+            <img src="./project4.jpg" class="h-100vh" alt="coverpic">
+            <div class="card-img-overlay d-flex flex-column justify-content-start mt-5">
+              <h2 id="bigtext" class="card-title fs-2">Hello,<span class="fs-6">I'm Deekshitha</span></h2>
+              <h2 id="bigtext" class="card-text fs-1">FRONTEND DEVELOPER</h2>
+              
+            </div>
+          </div>
+          <p id="bigtext" class="bg-warning h-5 fs-1 text-dark d-flex justify-content-center flex-column">I design and develop experiences that make people's life simple</p>
+    </section>
+    <section>
+        <p id="bigtext" class="bg-dark h-5 fs-1 text-light d-flex justify-content-center flex-column">WORK, I CAN DO FOR YOU</p>
+        <div class="row m-2 d-flex justify-content-center">
+        <div class="col m-5" style="width: 18rem;">
+            <img id="img" src="https://www.shutterstock.com/image-photo/web-development-coding-programming-internet-260nw-1141706672.jpg" class="card-img-top" alt="web development pic">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="col m-5" style="width: 18rem;">
+            <img id="img" src="https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703289600&semt=ais" class="card-img-top" alt="app development pic">
+            <div class="card-body">
+              <h5 class="card-title">App Development</h5>
+              <p class="card-text"> App developers are software engineers who construct applications for use on the web, on operating systems like Windows and MacOS or on mobile platforms like iOS and Android.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="col m-5" style="width: 18rem;">
+            <img id="img" src="https://img.freepik.com/free-vector/gradient-ui-ux-elements-background_23-2149056159.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703289600&semt=ais" class="card-img-top" alt="ux/ui development pic">
+            <div class="card-body">
+              <h5 class="card-title">UI/UX Development</h5>
+              <p class="card-text">A UI/UX developer is a specialized software developer who focuses on creating user interfaces and user experiences for a variety of products, such as websites and mobile apps. </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          </div>
+    </section>
+    <section class="d-flex justify-content-center m-3">
+        <div class="contact bg-success text-light p-3" style="width: 100%;">
+            <h2 style="width: 50%;">Contact Me</h2>
+            <p>
+              <input type="text" placeholder="Enter name" style="width: 95%;"><br><br>
+              <input type="email" placeholder="yourmail@example.com"style="width:95%;"><br><br>
+              <input type="password" placeholder="enter password" style="width: 95%;">
+            </p>
+            <p>
+                sravanijavvaji2001@gmail.com
+            </p>
+          </div>
+          <div class="about bg-danger text-light p-4" style="width: 100%;">
+            <h2>About Me</h2>
+    
+            <p>
+                Enthusiastic and eager web developer fresher with a strong foundation in HTML, CSS, and JavaScript, seeking an entry-level position to contribute my skills and passion for creating user-friendly and engaging web experiences.Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+          </div>
+    </section>
+    <footer style="text-align: center; color: antiquewhite;" class="bg-dark">
+        <p>PROJECT BY SRAVANI</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

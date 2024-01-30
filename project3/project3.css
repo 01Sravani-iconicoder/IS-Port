@@ -1,0 +1,127 @@
+header
+{
+  display: flex;
+  align-items: center;
+  height: 70px;
+    justify-content: space-between;
+    background-color: rgba(124, 180, 177, 0.788);
+    width: 100%;
+    top: 0px;
+    position: sticky;
+    z-index: 100%;
+}
+.menu ul li
+{
+  display: inline;
+  margin: 7px;
+    height: 40px;
+    background-color: rgb(230, 191, 234);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px rgb(44, 40, 36);
+}
+.menu ul li:hover{
+  background-color: rgb(51, 29, 72);
+}
+.menu ul li:active
+{
+  box-shadow: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover
+{
+  color: aliceblue;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+.pimg1 {
+  background-image: url(https://assets.sentinelassam.com/h-upload/2022/10/05/398100-rani-lakshmi-bai-adopted-son-damodar-rao.webp);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(https://assets.telegraphindia.com/telegraph/70445d63-5231-4c73-9be3-b244d55d168e.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMoJIDfXfuP-AsIRnGVpICSuq_-bntvxXtvTtW-yQLaI6obkRGdZiy8RG6nFWkMn-aq9s&usqp=CAU);
+  min-height: 400px;
+}
+.pimg4{
+    background-image: url(https://imgk.timesnownews.com/story/Rani_Laxmi_Bai_Of_Jhansi_Manikarnika_Tambe.png);
+    min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: sticky;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: #4f2854;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.section {
+  padding: 30px 20px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f0aeec;
+  color: black ;
+}
+.sec1
+{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.sec2
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec3
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img
+{
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px rgb(144, 111, 138);
+}
+.head
+{
+  text-shadow: 5px 10px 5px rgb(110, 152, 129);
+}

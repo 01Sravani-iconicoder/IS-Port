@@ -1,0 +1,125 @@
+*
+{
+    box-sizing: border-box;
+}
+header
+{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgba(25, 9, 95, 0.858);
+   box-shadow: 5px 10px 5px rgb(30, 26, 37);
+}
+.right
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.menu ul li
+{
+    display: inline;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    
+}
+.menu ul li:hover
+{
+    box-shadow: 5px 10px 5px rgb(19, 93, 213);
+}
+.menu ul li a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.home
+{
+    margin-top: 20px;
+    background-image: url(https://thumb.ac-illust.com/29/293b1e05358eaa55fc58aa0abe0f12d7_t.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(23, 32, 49);
+    gap: 60px;
+    padding: 10%;
+}
+.middle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music
+{
+    background-image: url(https://t3.ftcdn.net/jpg/05/78/67/14/360_F_578671466_FYGKfl0VXGu6jzeYPuVJ6mfK0dLMebB1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.people
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+#img
+{
+    box-shadow: 5px 10px 10px 5px rgb(56, 51, 51);
+    transition: 0.2s ease;
+}
+#img:hover
+{
+   transform: scale(1.2);
+}
+#login
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    background-color: rgb(125, 40, 77);
+    color: aliceblue;
+}
+footer
+{
+    background-color: rgba(25, 9, 95, 0.858);
+}
+.footer-upper {
+    background-color: var(--purple600);
+    padding: 20px;
+    margin: 10px;
+  }
+  .footer-upper .container {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  
+  .footer-upper h4 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+  }
+  .footer-lower {
+    background-color: var(--purple300);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+.footer-links ul li
+{
+    text-decoration: none;
+    display: block;
+}

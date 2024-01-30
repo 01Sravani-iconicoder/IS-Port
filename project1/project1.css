@@ -1,0 +1,78 @@
+*
+{
+    box-sizing: border-box;
+}
+fieldset 
+{
+    width: 150px;
+}
+body
+{
+    display: flex;
+    gap: 2px;
+    background-color: black;
+}
+dt::before
+{ 
+    content: "\00BB";
+    font-size: 30px;  
+} 
+.left
+{
+    border: 1px solid black;
+    background-color: white;
+    padding: 1% 2%;
+    color: rgb(16, 48, 92);
+}
+#btn
+{
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(to right,green,rgb(62, 176, 71),rgb(113, 167, 125),rgb(202, 217, 202));
+    animation: btn 1s infinite;
+}
+@keyframes btn{
+    from{background-image: linear-gradient(to right,green,rgb(62, 176, 71),rgb(113, 167, 125),rgb(202, 217, 202));}
+    to{background-image: linear-gradient(to right,rgb(216, 227, 14),rgb(181, 187, 60),rgb(240, 245, 141),rgb(202, 217, 202));}
+    
+}
+.right
+{
+    border: 1px solid black;
+    background-color: rgb(16, 48, 92);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 5%;
+}
+#up
+{
+    border-radius: 50%;
+    float: right;
+    background-color: brown;
+    position: -webkit-sticky;
+    position: sticky;
+  top: 0;
+  animation: up 1s infinite;
+}
+@keyframes up {
+    from{box-shadow: none; background-color: brown; }
+    to{box-shadow: 5px 10px 5px rgb(34, 31, 31); background-color: blue;}
+    
+}
+#pic1
+{
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 5px rgb(27, 24, 24);
+}
+.pic2
+{
+    float: right;
+}
+table,th,td
+{
+    border: 1px solid white;
+    border-collapse: collapse;
+}

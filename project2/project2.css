@@ -1,0 +1,45 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(229, 187, 171);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    text-align: center;
+    color: rgb(95, 5, 10);
+    background-color: rgb(235, 225, 222);
+    box-shadow: 5px 10px 5px rgb(74, 50, 54);
+}
+h2
+{
+    color: rgb(95, 5, 10);
+    background-color: rgb(235, 225, 222);
+}
+fieldset
+{
+   border: 2px solid black;
+   border-radius: 10px;
+   box-shadow: 5px 10px 5px rgb(74, 50, 54);
+   background-color: rgb(227, 139, 139);
+}
+.name
+{
+    color: rgb(95, 5, 10);
+    display: inline;
+    background-color: rgb(235, 225, 222);
+    font-size: larger;
+}
+.btn
+{
+    background-color: brown;
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+}
