@@ -1,0 +1,151 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(241, 241, 150);
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    background-image: linear-gradient(to left, rgb(246, 116, 116),rgb(250, 198, 103),rgb(197, 57, 81));
+    padding: 20px;
+    height: 100px;
+    width: 98vw;
+    z-index: 100;
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+header ul li
+{
+    list-style: none;
+    font-size: 25px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(230, 91, 91);
+    box-shadow: 5px 5px 10px black;
+    height: 50px;
+    width: 100px;
+    padding-top: 10px;
+    text-align: center;
+}
+header ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+header ul li a:hover
+{
+    color: white;
+}
+header ul li:hover
+{
+    background-color: orange;
+}
+header ul li:active
+{
+    box-shadow: none;
+}
+.right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 60px;
+}
+#count
+{
+    color:white;
+    font-size: 20px; 
+    position: relative;
+   top: 18px;
+   left: -30px;
+   font-weight: 600;
+   background-color: red; 
+   height: 20px;
+    width: 20px; 
+    border-radius: 50%; 
+    padding-left: 5px; 
+}
+#home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 30px;
+}
+#products
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    padding: 60px;
+}
+.product
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+    transition: 1s ease;
+}
+.product:hover
+{
+    transform: scale(1.1);
+}
+.price_cart
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.product img
+{
+    height: 200px;
+    width: 300px;
+}
+.cart-button
+{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(230, 91, 91);
+}
+.cart-button:hover
+{
+    background-color: orange;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+}
+.cart-button:active
+{
+    box-shadow: none;
+}
+#contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

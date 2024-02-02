@@ -1,0 +1,14 @@
+#btn1
+{
+    height: 75px;
+    width: 200px;
+    font-size: 30px;
+    border: 1px solid black;
+    margin-top: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+#btn1:active
+{
+    box-shadow: none;
+}

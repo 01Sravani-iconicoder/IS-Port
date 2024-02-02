@@ -1,0 +1,125 @@
+*
+{
+    box-sizing: border-box;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    background-image: linear-gradient(to left, rgb(246, 116, 116),rgb(250, 198, 103),rgb(197, 57, 81));
+    padding: 20px;
+    height: 100px;
+    width: 97vw;
+    z-index: 100;
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+header ul li
+{
+    list-style: none;
+    font-size: 20px;
+    color: black;
+}
+header ul li:hover
+{
+    text-decoration: underline;
+}
+body
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 97vh;
+    background-color: rgb(241, 241, 150);
+    color: black;
+}
+fieldset
+{
+    
+    border-radius: 20px;
+    box-shadow: 20px 20px 200px rgb(50, 49, 49);
+   background-image: linear-gradient(to top left, rgb(246, 116, 116),rgb(250, 198, 103),rgb(197, 57, 81));
+}
+legend
+{
+    text-align: center;
+}
+form
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+    width: 500px;
+}
+/* Styling for the container */
+.form-group {
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  /* Styling for the input field */
+  input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+  }
+
+  /* Styling for the floating label */
+  label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.2s ease-out;
+  }
+
+  /* Styling for the floating label when the input is focused */
+  input:focus + label,
+  input:not(:placeholder-shown) + label {
+    top: -20px;
+    left: 5px;
+    font-size: 12px;
+    color: black;
+  }
+  .btn
+  {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(82, 77, 77);
+  }
+  .btn:active
+  {
+    box-shadow: none;
+  }
+  .login a
+  {
+    color: black;
+  }
+  .login a:hover
+  {
+    color: red;
+  }
+  .sh:hover
+  {
+    text-decoration: underline;
+  }
+  .Error
+  {
+    color: white;
+  }
